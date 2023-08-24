@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "build": "browserify src/main.js > public/assets/js/bundle.js",
     "test": "npm run build && jest --coverage",
     "prepare": "husky install"
